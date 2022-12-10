@@ -3,7 +3,7 @@
     <InnerPageHero imageUrl="/images/image-2.jpg" title="About Us" />
 
 
-    <div class="container mx-auto px-4 sm:px-0 py-8 sm:py-12">
+    <div class="container mx-auto px-4 sm:px-0 py-8 sm:py-20">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. In voluptate cupiditate architecto iste
             necessitatibus
