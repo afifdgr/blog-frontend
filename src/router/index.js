@@ -2,7 +2,8 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../views/Home/Index.vue";
 import About from "../views/About/Index.vue";
 import Contact from "../views/Contact/Index.vue";
-import Articles from "../views/Articles/Index.vue";
+import ArticlesIndex from "../views/Articles/Index.vue";
+import ArticlesShow from "../views/Articles/Show.vue";
 
 const routes = [
   {
@@ -22,8 +23,13 @@ const routes = [
   },
   {
     path: "/articles",
-    name: "articles",
-    component: Articles,
+    name: "articles.index",
+    component: ArticlesIndex,
+  },
+  {
+    path: "/articles/:slug",
+    name: "articles.show",
+    component: ArticlesShow,
   },
 ];
 
